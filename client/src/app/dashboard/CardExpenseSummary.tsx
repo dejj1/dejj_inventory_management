@@ -60,7 +60,7 @@ import {
             <div className="xl:flex justify-between pr-7">
               {/* CHART */}
               <div className="relative basis-3/5">
-                <ResponsiveContainer width="100%" height={140}>
+                <ResponsiveContainer width="100%" height={200} className="p-2">
                   <PieChart>
                     <Pie
                       data={expenseCategories}
